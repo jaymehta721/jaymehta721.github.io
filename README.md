@@ -6,7 +6,7 @@ Unity game developer portfolio with playable projects, work experience, recommen
 
 ## Publish
 
-In **Settings → Pages**, select **Deploy from a branch**, then **main** and **/(root)**. Save the settings. Commit and push website updates to `main`; wait for the Pages deployment to finish in the Actions tab.
+In **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**. Commit and push website updates to `main`; the **Deploy portfolio to GitHub Pages** workflow validates and publishes the current site. To deploy manually, open **Actions → Deploy portfolio to GitHub Pages → Run workflow** and select `main`.
 
 The website entry point is `index.html`. `.nojekyll` tells GitHub Pages to serve these static files directly. The repository page displays this README; the portfolio itself is at the website link above.
 
